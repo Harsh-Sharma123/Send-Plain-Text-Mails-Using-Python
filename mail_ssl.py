@@ -8,10 +8,10 @@ import ssl
 context = ssl.create_default_context()
 
 # Mail Id using which you will send mails.
-MAIL = "harshharshharshharsh46@gmail.com"
+MAIL = "*********************@gmail.com"
 
 # Password of the mail
-PASS = "harsh@123"
+PASS = "**********"
 
 # Port
 port = 465
@@ -20,4 +20,4 @@ port = 465
 with smtplib.SMTP_SSL("smtp.gmail.com", port , context=context) as server:
     server.login(MAIL, PASS)
     msg = f"Subject:HI\n\nHow are you doing?"
-    server.sendmail(MAIL, "hs804527@gmail.com", msg)
+    server.sendmail(MAIL, "*************@gmail.com", msg)
