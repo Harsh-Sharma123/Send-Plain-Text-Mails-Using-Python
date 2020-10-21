@@ -11,8 +11,8 @@ context = ssl.create_default_context()
 port = 587
 
 # Email Id and Password of the sender
-EMAIL = "harshharshharshharsh46@gmail.com"
-PASS = "harsh@123"
+EMAIL = "************************@gmail.com"
+PASS = "**************"
 
 with smtplib.SMTP("smtp.gmail.com", port) as server:
     # Verify identity to the gmail server
@@ -22,7 +22,7 @@ with smtplib.SMTP("smtp.gmail.com", port) as server:
     # Login to the server
     server.login(EMAIL, PASS)
     msg = f"Subject:HI\n\nHow are you doing?"
-    server.sendmail(EMAIL, "hs804527@gmail.com", msg)
+    server.sendmail(EMAIL, "*******************@gmail.com", msg)
 
 
 
